@@ -1,0 +1,38 @@
+footer{
+    background-color: rgb(163, 14, 14);
+}
+body{
+    color: white;
+    background-image: url(fotos/fondo2.webp);
+}
+h1{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(163, 14, 14);
+}
+img{
+    border: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ol{
+    padding: 0%;
+    width: 100%;
+    margin: auto;
+}
+li{
+    background-color: rgb(163, 14, 14);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: calc(100%/5);
+    padding: 10px 0;
+}
+.introduccion{
+    margin: auto;
+}
+.Peliculas{
+
+}
