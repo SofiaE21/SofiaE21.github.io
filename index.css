@@ -30,9 +30,6 @@ li{
     width: calc(100%/5);
     padding: 10px 0;
 }
-.introduccion{
-    margin: auto;
-}
-.Peliculas{
-
+h2{
+    text-decoration: underline wavy black;
 }
