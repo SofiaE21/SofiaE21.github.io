@@ -37,7 +37,7 @@ li{
     color: white;
     display: inline-block;
     text-align: center;
-    width: calc(98.7%/6);
+    width: calc(100%/6);
     padding: 10px 0px;
     border-radius: 7px;
     font-size: 18px;
@@ -52,4 +52,9 @@ p{
 }
 h3{
     font-size: 19px;
+    clear: both;
+    margin-top: 20px;
+}
+img{
+    float: left;
 }
