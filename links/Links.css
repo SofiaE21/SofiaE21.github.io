@@ -1,0 +1,20 @@
+li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url(fotos/fondo2.webp);
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 400px;
+    text-decoration: underline;
+}
