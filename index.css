@@ -1,24 +1,27 @@
+
 footer{
-    background-color: rgb(163, 14, 14);
-    border-radius: 5px;
-    text-align: center;
-    font-size: 12px;
+        background-color: rgb(163, 14, 14);
+        color: white;
+        text-align: center;
+        font-size: 12px;
 }
 body{
     color: white;
     background-image: url(fotos/fondo2.webp);
     font-size: 0px;
-    margin: auto 0px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
+   
 h1{
-    text-align: center;
-    margin: auto;
+    color: white;
+    font-size: 24px ;
+    margin: 0;
+    padding: 10px 0 0 20px; 
     background-color: rgb(163, 14, 14);
-    border-radius: 7px;
-    font-size: 20px;
+    text-align: center;
 }
 img{
-    border: 2px solid white;
     border-radius: 5px;
 }
 a{
@@ -26,35 +29,59 @@ a{
     color: inherit;
 }
 ol{
-    padding: 0%;
-    width: 100%;
-    margin: 50px auto;
-    font-size: 16px;
-    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
 }
 li{
     background-color: rgb(163, 14, 14);
     color: white;
     display: inline-block;
     text-align: center;
-    width: calc(100%/6);
-    padding: 10px 0px;
     border-radius: 7px;
-    font-size: 18px;
+    text-align: center;
+    width: calc(100%/6);
+    font-size: 16px;
+    font-weight: bold;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+}
+li:hover{
+    background-color: rgb(120, 3, 3);
+    color: white;
 }
 h2{
     text-decoration: underline wavy rgb(146, 30, 30);
-    text-align: center;
     font-size: 18px;
+    text-align: center;
 }
 p{
     font-size: 16px;
-}
-h3{
-    font-size: 19px;
-    clear: both;
-    margin-top: 20px;
+    margin-left: 30px;
 }
 img{
     float: left;
+    text-align: center;
+}
+article{
+    display: inline-block;
+}
+
+img{
+    border: solid white 4px;
+    margin-bottom: 40px;
+}
+#pelicula4{
+    margin-left: calc(75%/2);
+    margin-right: 60px;
+}
+#pelicula1{
+    margin-left: calc(90%/3);
+    margin-right: 60px;
+}
+#pelicula2{
+    margin-right: 60px;
+}
+img:hover{
+    border: solid rgb(146, 30, 30) 4px;
 }
