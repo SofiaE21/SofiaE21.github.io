@@ -1,0 +1,136 @@
+body{
+    color: white;
+    background-image: url(fotos/fondosilencio.webp);
+    font-size: 0px;
+    margin: 0 auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-size: 26px ;
+    padding: 10px 0 0 20px; 
+    background-color: rgb(163, 14, 14);
+    text-align: center;
+    border-radius: 4px;
+    margin: 0%;
+}
+ol{
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+li{
+    background-color: rgb(163, 14, 14);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 7px;
+    text-align: center;
+    width: calc(100%/3);
+    font-size: 16px;
+    font-weight: bold;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+}
+li:hover{
+    background-color: rgb(120, 3, 3);
+    color: white;
+}
+footer{
+    background-color: rgb(163, 14, 14);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    clear: both;
+     max-width: auto;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    font-size: 16px;
+    margin-left: 40px;
+    text-align: center;
+    margin-right: 40px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 3px solid rgb(163, 14, 14);
+    width: 110px;
+    margin: auto;
+    margin-top: 25px;
+}
+p.texto{
+    overflow: right;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    
+}
+div.dere{
+    float: right;
+    margin-right: 50px;
+}
+iframe{
+    width: 350px;
+    height: 190px;
+    border: white solid 3px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+main{
+    margin-bottom: 20px;
+}
+article{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+img{
+    border: white 3px solid;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+p.rep{
+    font-size: 20px;
+    text-decoration: underline solid 3px rgb(163, 14, 14);
+}
+#foto1{
+    width: calc(100%/5);
+}
+#foto2{
+    width: calc(100%/5);
+}
+#foto3{
+    width: calc(100%/5);
+}
+#foto4{
+    width: calc(100%/5);
+}
+#foto5{
+    width: calc(100%/5);
+}
+#foto6{
+    width: calc(100%/5);
+}
+#textoreal{
+    overflow: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+div.izq{
+    float: left;
+    margin-left: 50px;
+    
+}
+#fc{
+    border: 0px;
+}
