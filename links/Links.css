@@ -1,6 +1,5 @@
 li{
-    text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     list-style: none;
     margin-top: 10px;
 }
@@ -9,15 +8,23 @@ a{
     color: white;
 }
 body{
-    background-color: black;
+    background-image: url(fondolinks.webp);
+    font-size: 0px;
+    margin: 0 auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 h1{
-    font-size: 35px;
-    text-align: center;
+    font-size: 50px;
     color: rgb(255, 0, 0);
-    margin-top: 100px;
-    text-decoration: underline;
+    margin-top: 150px;
+    border: 2px solid rgb(255, 0, 0);
 }
 a:visited{
     color: crimson;
+}
+ol{
+    margin-top: 85px;
 }
