@@ -4,7 +4,7 @@ footer{
     color: white;
     text-align: center;
     font-size: 12px;
-        
+    
 }
 body{
     color: white;
@@ -111,3 +111,193 @@ img:hover{
     transform: scale(1.05);
 }
 
+.breadcrumb {
+    background-color: rgba(0,0,0,0.55);
+    padding: 6px 18px;
+    font-size: 13px;
+    color: #ddd;
+}
+.breadcrumb a { color: #ffaaaa; text-decoration: underline; }
+.breadcrumb a:hover { color: white; }
+.breadcrumb span { margin: 0 5px; color: #aaa; }
+
+
+@media (max-width: 480px) {
+
+
+    body {
+        background-image: url(fotos/fondoweb2.webp);
+        background-attachment: scroll;
+    }
+
+    h1 {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+
+    nav ol {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ol li {
+        width: 100% ;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        font-size: 14px;
+    }
+
+    article img {
+        width: 120px ;
+        height: 180px ;
+        float: none;
+        margin: auto;
+    }
+
+    #pelicula1, #pelicula2, #pelicula3,
+    #pelicula4, #pelicula5 {
+        margin-left: auto ;
+        margin-right: auto ;
+        text-align: center;
+        display: block;
+    }
+
+  
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    p {
+        font-size: 14px ;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .breadcrumb {
+        font-size: 11px;
+  
+    }
+}
+
+@media (max-width: 420px) {
+
+
+    body {
+        background-image: url(fotos/fondoweb2.webp);
+        background-attachment: scroll;
+    }
+
+    h1 {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+
+    nav ol {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ol li {
+        width: 100% ;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        font-size: 14px;
+    }
+
+    article img {
+        width: 120px ;
+        height: 180px ;
+        float: none;
+        margin: auto;
+    }
+
+    #pelicula1, #pelicula2, #pelicula3,
+    #pelicula4, #pelicula5 {
+        margin-left: auto ;
+        margin-right: auto ;
+        text-align: center;
+        display: block;
+    }
+
+  
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    p {
+        font-size: 14px ;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .breadcrumb {
+        font-size: 11px;
+  
+    }
+}
+
+@media (max-width: 750px) {
+
+
+    body {
+        background-image: url(fotos/fondoweb2.webp);
+        background-attachment: scroll;
+    }
+
+    h1 {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+
+    nav ol {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ol li {
+        width: 100% ;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        font-size: 14px;
+    }
+
+    article img {
+        width: 120px ;
+        height: 180px ;
+        float: none;
+        margin: auto;
+    }
+
+    #pelicula1, #pelicula2, #pelicula3,
+    #pelicula4, #pelicula5 {
+        margin-left: auto ;
+        margin-right: auto ;
+        text-align: center;
+        display: block;
+    }
+
+  
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    p {
+        font-size: 14px ;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .breadcrumb {
+        font-size: 11px;
+  
+    }
+}
