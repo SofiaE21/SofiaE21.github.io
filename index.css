@@ -48,6 +48,7 @@ li{
     font-weight: bold;
     border-right: 2px solid black;
     box-sizing: border-box;
+    padding: 10px;
 }
 li:hover{
     background-color: rgb(120, 3, 3);
@@ -147,9 +148,15 @@ img:hover{
         font-size: 14px;
     }
 
+    article {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
     article img {
-        width: 120px ;
-        height: 180px ;
+        width: 160px ;
+        height: 240px ;
         float: none;
         margin: auto;
     }
@@ -159,15 +166,18 @@ img:hover{
         margin-left: auto ;
         margin-right: auto ;
         text-align: center;
-        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
   
     section {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         gap: 14px;
+        width: 100%;
     }
 
     p {
@@ -207,27 +217,37 @@ img:hover{
         font-size: 14px;
     }
 
+    article {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
     article img {
-        width: 120px ;
-        height: 180px ;
+        width: 160px ;
+        height: 240px ;
         float: none;
         margin: auto;
     }
 
     #pelicula1, #pelicula2, #pelicula3,
     #pelicula4, #pelicula5 {
-        margin-left: auto ;
-        margin-right: auto ;
         text-align: center;
-        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 
   
     section {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         gap: 14px;
+        width: 100%;
     }
 
     p {
@@ -267,9 +287,15 @@ img:hover{
         font-size: 14px;
     }
 
+    article {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
     article img {
-        width: 120px ;
-        height: 180px ;
+        width: 160px ;
+        height: 240px ;
         float: none;
         margin: auto;
     }
@@ -279,15 +305,18 @@ img:hover{
         margin-left: auto ;
         margin-right: auto ;
         text-align: center;
-        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
   
     section {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         gap: 14px;
+        width: 100%;
     }
 
     p {

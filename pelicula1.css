@@ -186,9 +186,9 @@ div.izq{
     
     #foto1, #foto2, #foto3,
     #foto4, #foto5, #foto6 {
-        width: calc(50% - 8px) ;
-        display: inline-block;
-        vertical-align: top;
+        width: 100% ;
+        display: block;
+        margin: 8px auto;
     }
     article img {
         width: 100% ;
