@@ -81,31 +81,26 @@ img{
 
 #pelicula1{
    text-align: center;
-   margin-bottom: 40px;
-    margin-left: 450px;
+   width: calc(100%/5);
 }
 #pelicula2{
    text-align: center;
-   margin-bottom: 40px;
-    margin-left: 200px;
+   width: calc(100%/5);
 
 }
 #pelicula3{
     text-align: center;
-    margin-bottom: 40px;
-     margin-left: 200px;
+    width: calc(100%/5);
 
 }
 #pelicula4{
     text-align: center;
-    margin-bottom: 40px;
-     margin-left: 650px;
+   width: calc(100%/5);
   
 }
 #pelicula5{
     text-align: center;
-    margin-bottom: 40px;
-     margin-left: 200px;
+    width: calc(100%/5);
 
 }
 img:hover{
@@ -329,4 +324,46 @@ img:hover{
         font-size: 11px;
   
     }
+}
+
+/* WCAG improvements */
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline: 3px solid #000;
+}
+
+button, a {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Skip link */
+.skip-link {
+  position:absolute;
+  left:-9999px;
+}
+.skip-link:focus {
+  left:10px;
+  top:10px;
+  background:#000;
+  color:#fff;
+  padding:10px;
+}
+
+/* Responsive */
+@media (max-width:750px){
+  body{font-size:0.95rem;}
+}
+
+@media (max-width:420px){
+  body{font-size:0.9rem;}
 }
